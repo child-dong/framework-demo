@@ -1,0 +1,98 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.penal{
+	.penal-info{
+		background-color: $ele-bg;
+		div{
+			overflow: hidden;
+			text-align: center;
+			.icon-xingshianjian{
+				display: block;
+				margin: 15px auto;
+				width: 50px;
+				height: 50px;
+				line-height: 50px;
+				border-radius: 50%;
+				font-size: 29px;
+				color: $white;
+				background-color: #ef6189;
+			}
+			p{
+				margin: $margin-ele 0 15px;
+				padding: 0 24px 0; 
+				line-height: 22px;
+				text-indent: 25px;
+				text-align: justify;	
+				@include beyond-hide(3);
+			}
+		}
+	}
+	.queue{
+		.number,.time{
+			margin: 0;
+			width: 50%;
+			box-sizing: border-box;
+			line-height: 40px;
+			text-align: center;
+			font-size: 15px;
+			background: $ele-bg;
+			border: 1px solid $border-gray;
+		}
+		.number{
+			border-left: 0;
+		}
+		.time{
+			border-left: 0;
+			border-right: 0;
+		}
+	}
+	.lawyer{
+		margin-top: $margin-ele;
+		background-color: $ele-bg;
+		.duty{
+			margin: 0;
+			padding: 0 $padding-aside;
+			line-height: 40px;
+			color: $brand-yellow;
+			border-bottom: 1px solid $border-gray;
+			a{
+				color: $brand-yellow;
+			}
+		}
+		.lawyer-lists{
+			li{
+				margin-left: $padding-aside;
+				margin-right: $padding-aside;
+				padding: 16px 12px;
+				position: relative;
+				img{
+					width: 60px;
+					height: 60px;
+				}
+				p{
+					margin: 0;
+					padding-left: $padding-text;
+					span{
+						font-size: $font-size-small;
+						line-height: $padding-text;
+						b{
+							margin-right: 13px;
+							font-size: 15px;
+						}
+					}
+				}
+				@include after1px($border-gray)
+			}
+		}
+		.startQueue{
+			margin: 18px $padding-aside;
+			background-color: $brand;
+			text-align: center;
+			line-height: $line-height-xl;
+			font-size: 20px;
+			color: $white;
+			border-radius: 10px;
+		}
+	}
+}

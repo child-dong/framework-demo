@@ -1,0 +1,33 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.legal{	
+	.realtime-search{
+		padding-bottom: 3px;
+	}
+	.legal-lists{
+		li{
+			float: left;
+			height: 90px;
+			width: 33%;
+			border-right: 1px solid $border-gray;
+			border-bottom: 1px solid $border-gray;
+			box-sizing: border-box;
+			a{
+				display: block;
+				padding-top: $padding-text;
+				padding-bottom: 18px;
+				width: 100%;
+				text-align: center;
+				box-sizing: border-box;
+				span{
+					font-size: 20px;
+					font-weight: $font-weight-bold;
+				}
+			}
+			&:nth-child(3n){
+				border-right: 0;
+			}
+		}
+	}
+}

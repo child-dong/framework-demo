@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="./queue.scss">
+
+<div class="queue">
+	<div class="header">
+		<p class="back clearfix">
+			<a class="aside-l icon-back" href="javascript:history.go(-1);">返回</a>
+			<span>排队等待</span>
+			<a class="aside-r icon-saoyisao" href="###"></a>
+		</p>
+	</div>
+	<div id="ring"></div>
+	<div class="waitTime clearfix">
+		<p class="pull-left">
+			<span>40分钟</span><br>
+			预计等待时间
+		</p>
+		<p class="pull-right">
+			<span>刑事</span><br>
+			您的咨询业务
+		</p>
+	</div>
+	<div class="exit">
+		<a href="./penal.html">退出排队</a>
+	</div>
+</div>
+
+<script>
+	var main = require('js/main.js');
+	main.queue.init();
+</script>

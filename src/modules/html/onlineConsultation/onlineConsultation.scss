@@ -1,0 +1,56 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.onlineConsultation{
+	.content{
+		border-bottom: 1px solid $border-gray;
+		.online-center{
+			position: relative;
+			background-color: $ele-bg;	
+			padding-left: $padding-aside;
+			padding-right: $padding-aside;		
+			@include after1px($border-gray)
+			&:nth-child(4){
+				&:after{
+					display: none;
+				}
+			}
+			a{
+				.online-icon{
+					margin: 0;
+					padding-left: $padding-aside;
+					line-height: 90px;
+					font-size: 35px;
+				}
+				.online-desc{
+					width: 70%;
+					margin-top: $padding-text;
+					padding-left: $padding-text;
+					line-height: 24px;
+					font-size: $font-size-h4;
+					span{
+						width: 75%;
+						font-size: $font-size-small;
+					}
+				}
+				.more{
+					margin: 0;
+					line-height: 90px;
+					font-size: $font-size-h4;
+				}
+				.icon-rocket{
+					color: $brand-yellow;
+				}
+				.icon-customerService{
+					color: #9aee46;
+				}
+				.icon-forum{
+					color: $brand-red;
+				}
+				.icon-robot{
+					color: #49b4f1;
+				}
+			}
+		}
+	}
+}

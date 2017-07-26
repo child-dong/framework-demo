@@ -1,0 +1,119 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.peerConsultative{
+	.search-box{
+		margin: 10px $padding-aside;
+    padding-left: $padding-aside;
+    padding-right: $padding-aside;
+    border-radius: 6px;
+    background-color: $ele-bg;
+    line-height: 44px;
+    color: #bdbdbd;
+    span{
+      font-size: 20px;
+      font-weight: $font-weight-bold;
+      margin-right: $padding-aside;
+    }
+    input{
+      width: 80%;
+      font-size: $font-size-base;
+      border: none;
+      outline: none;
+    }
+  }
+  .peer-lists{
+  	margin-top: $margin-ele;
+  	border-top: 1px solid $border-gray;
+  	li{
+  		a{		
+  			display: block;
+	  		padding: 15px $padding-aside;
+	  		text-align: center;
+	  		width: 80px;
+	  		box-sizing: border-box;
+	  		color: $black;
+	  		border-bottom: 1px solid $border-gray;
+  		}
+  	}
+  }
+  .all{
+  	margin-top: 10px;
+  	margin-left: 80px;
+  	padding: 7px $padding-aside 0;
+  	width: auto;
+  	background-color: $ele-bg;
+  	.all-title{
+  		margin-right: -12px;
+  		overflow: hidden;
+  		li{
+  			float: left;
+  			margin-right: $padding-aside;
+        width: 28%;
+  			a{
+  				display: block;
+  				line-height: 30px;
+  				width: 100%;
+  				text-align: center;
+  				border: 1px solid $border-gray;
+  				color: $black;
+  				background-color: #f7f7f7;
+  			}
+  		}
+  	}
+  	.laywer{
+  		margin-top: 7px;
+  		border: 1px solid $border-gray;
+  		.laywer-info{
+  			padding: $padding-aside;
+  			overflow: hidden;
+  			img{
+  				width: 50px;
+  				height: 50px;
+					border-radius: 50%;
+  			}
+  			.name{
+  				margin: 0;
+  				padding-left: 29px;
+  				b{
+  					font-size: $font-size-large;
+						color: $black;
+  				}
+  			}
+  		}
+  		.othInfo{
+  			margin: 0;
+  			padding-left: $padding-aside;
+  			padding-bottom: 5px;
+  			line-height: 23px;
+  			overflow: hidden;
+  			a{
+  				float: left;
+  				margin-left: $margin-ele;
+  				line-height: $padding-text;
+  				padding: 0 4px;
+  				border: 1px solid $brand-yellow;
+  				color: $brand-yellow;
+  			}
+  		}
+  		.help{
+  			margin: 0;
+  			overflow: hidden;
+  			border-top: 1px solid $border-gray;
+  			span{
+					padding-left: $padding-aside;
+					line-height: $line-height-xl;
+  			}
+  			a{
+  				margin-top: 7px;
+  				margin-right: 5px;
+					line-height: 30px;
+					padding: 0 $padding-aside;
+					background-color: $brand-yellow;
+					border-radius: 5px;
+					color: $white;
+  			}
+  		}
+  	}
+  }
+}

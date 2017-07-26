@@ -1,0 +1,128 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+.forum{	
+	.realtime-search{
+		padding-bottom: 3px;
+	}
+	.forum-lists{
+		padding: 21px 3px 6px 2px; 
+		background-color: $ele-bg;
+		li{
+			float: left;
+			margin-bottom: 14px;
+			width: 25%;
+			height: 72px;
+			position: relative;
+			p{
+				margin: 0;
+				text-align: center;
+				span{
+					margin: 0 auto 8px;
+					display: block;
+					width: 50px;
+					height: 50px;
+					line-height: 50px;
+					border-radius: 50%;
+					font-size: 29px;
+					color: $white;
+				}
+			}
+			&:after{
+				display: block;
+				content: "";
+				position: absolute;
+				top: 16px;
+				right: 0;
+				height: 14px;
+				width: 1px;
+				border-right: 1px dashed $border-gray; 
+			}
+			&:nth-child(4n){
+				&:after{
+					display: none;
+				}
+			}
+		}
+	}
+	.icon-xingshianjian{
+		background-color: #ef6189;
+	}
+	.icon-icon{
+		background-color:#3ad4cb ;
+	}
+	.icon-zhaiquan1{
+		background-color:#3ad4cb ;
+	}
+	.icon-xingzhengguanli{
+		background-color:#ffa11a ;
+	}
+	.icon-iconlaodongjiufen{
+		background-color:#b8ed64 ;
+	}
+	.icon-chaiqian2{
+		background-color:#ffa11a ;
+	}
+	.icon-xinjingji{
+		background-color:#55e27d ;
+	}
+	.hot-question{
+		padding: 17px $padding-text 11px;
+		span{
+			font-size: 15px;
+		}
+	}
+	.question-lists{
+		background-color: $ele-bg;
+		ul{
+			padding-top: 18px;
+			li{
+				position: relative;
+				margin: 0 $padding-text 18px;
+				padding: 0 0 14px;
+				font-size: $font-size-text;
+				.sort{
+					margin: 0;
+					line-height: 25px;
+					span{
+						color: $gray-light;
+						font-size: $font-size-small;
+					}
+					.icon-xingshianjian{
+						margin-right: 10px;
+						width: 25px;
+						height: 25px;
+						text-align: center;
+						border-radius: 50%;
+						font-size: 15px;
+						color: $white;
+					}
+					a{
+						letter-spacing: 3px;
+						font-weight: $font-weight-bold;
+						color: $gray-light;
+					}
+				}
+				.content{
+					margin: 5px 0 0 0;
+					line-height: 25px;
+				}
+				.scan{
+					margin: 7px 0 0;
+					font-size: $font-size-small;
+					color: $gray-light;
+				}
+				&:after{
+					display: block;
+					content: "";
+					position: absolute;
+					left: 0;
+					bottom: 0;
+					height: 1px;
+					width: 100%;
+					border-top: 1px dashed $border-gray;
+				}
+			}
+		}
+	}
+}

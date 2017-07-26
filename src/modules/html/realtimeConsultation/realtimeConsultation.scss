@@ -1,0 +1,129 @@
+@import "../../css/variables.scss";
+@import "../../css/mixins.scss";
+
+
+
+.realtimeConsultation{
+	.realtime-search{		
+		.hot-search{
+			padding-left: $padding-aside;		
+			span{
+				margin-right: 12px;
+				margin-bottom: $padding-aside;
+				color: $white;
+			}
+			ul{
+				li{
+					float: left;
+					margin-bottom: $padding-aside;
+					a{
+						display: block;
+						padding-right: 15px;
+						text-decoration: underline;
+						color: $white;
+					}
+				}
+			}
+		}
+	}
+	.realtime-lists{
+			margin-top: $padding-text;
+			padding: 0 $padding-aside;
+			min-width: 300px;			
+		ul{
+			li{
+				float: left;
+				margin: 0 6% $padding-aside 0;
+				padding-bottom: $padding-aside;
+				width: 29%;
+				box-sizing: border-box;
+				background-color: $ele-bg;
+				border: 1px solid #eeeeee;	
+				a{
+					display: block;
+					width: 100%;
+					p{
+						margin: 0;
+						text-align: center;
+						span{
+							margin: $margin-ele auto;
+							display: block;
+							width: 50px;
+							height: 50px;
+							line-height: 50px;
+							border-radius: 50%;
+							font-size: 29px;
+							color: $white;
+						}
+					}
+				}
+				&:nth-child(3n){
+					margin-right: 0;
+				}
+			}
+		}
+		.icon--{
+			background-color: #3fafee;
+		}
+		.icon-xingshianjian{
+			background-color: #ef6189;
+		}
+		.icon-hunyin{
+			background-color:#ffa11a ;
+		}
+		.icon-iconlaodongjiufen{
+			background-color:#b8ed64 ;
+		}
+		.icon-icon{
+			background-color:#3ad4cb ;
+		}
+		.icon-2{
+			background-color:#ff6363 ;
+		}
+		.icon-gonggongjiaotonggongjushengushencan{
+			background-color:#d570f2 ;
+		}
+		.icon-xiaofeiquanyi{
+			background-color:#f5dc68 ;
+		}
+		.icon-linli{
+			background-color:#55e27d ;
+		}
+		.icon-chaiqian2{
+			background-color:#ffa11a ;
+		}
+		.icon-ic_account_balance_px{
+			background-color:#3fafee ;
+		}
+		.icon-yiliao{
+			background-color:#ef6189 ;
+		}
+		.icon-v1-wuquanbaohu{
+			background-color:#b8ed64 ;
+		}
+		.icon-zhaiquan1{
+			background-color:#3ad4cb ;
+		}
+		.icon-gongsi1{
+			background-color:#f5dc68 ;
+		}
+		.icon-xinjingji{
+			background-color:#55e27d ;
+		}
+		.icon-zhishichanquanbaohu{
+			background-color:#d570f2 ;
+		}
+		.icon-minzheng{
+			background-color:#ff6363 ;
+		}
+		.icon-xingzhengguanli{
+			background-color:#ffa11a ;
+		}
+		.icon-susong{
+			background-color:#ef6189 ;
+		}
+		.icon-falv2{
+			background-color:#3fafee ;
+		}
+	}
+}
