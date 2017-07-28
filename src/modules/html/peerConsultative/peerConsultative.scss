@@ -3,6 +3,7 @@
 
 .peerConsultative{
 	.search-box{
+    position: relative;
 		margin: 10px $padding-aside;
     padding-left: $padding-aside;
     padding-right: $padding-aside;
@@ -11,13 +12,18 @@
     line-height: 44px;
     color: #bdbdbd;
     span{
+      position: absolute;
+      top: 0;
+      left: $padding-aside;
       font-size: 20px;
       font-weight: $font-weight-bold;
-      margin-right: $padding-aside;
     }
     input{
-      width: 80%;
-      font-size: $font-size-base;
+      display: block;
+      padding-left: 2*$padding-aside;
+      width: 100%;
+      font-size: $font-size-inp;
+      box-sizing: border-box;
       border: none;
       outline: none;
     }
@@ -107,8 +113,8 @@
   			a{
   				margin-top: 7px;
   				margin-right: 5px;
+          padding: 0 $padding-aside;
 					line-height: 30px;
-					padding: 0 $padding-aside;
 					background-color: $brand-yellow;
 					border-radius: 5px;
 					color: $white;

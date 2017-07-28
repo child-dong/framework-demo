@@ -119,6 +119,7 @@ a {
   padding-right: $padding-aside;
   border-top: 1px solid #3051c0;
   .search-box{
+    position: relative;
     margin-top: 23px;
     margin-bottom: $padding-aside;
     padding: 3px $padding-aside;
@@ -128,12 +129,17 @@ a {
     color: #bdbdbd;
     box-sizing: border-box;
     input{
-      width: 85%;
+      padding-right: 2*$padding-aside;
+      width: 100%;
       font-size: $font-size-inp;
       border: none;
       outline: none;
+      box-sizing: border-box;
     }
     span{
+      position: absolute;
+      top: 0;
+      right: $padding-aside;
       font-size: 20px;
       font-weight: $font-weight-bold;
     }

@@ -2,6 +2,11 @@
 @import "../../css/mixins.scss";
 
 .personalInfo{
+	.gap{
+		height: $margin-ele;
+		width: 100%;
+		background-color: $body-bg; 
+	}
 	.lawyer-info{
 		padding: 10px $padding-aside 19px;
 		background-color: $ele-bg;
@@ -41,7 +46,6 @@
 		}
 	}
 	.feedback{
-		margin-top: $margin-ele;
 		padding: 5px 0;
 		background-color: $ele-bg;
 		text-align: center;
@@ -73,7 +77,6 @@
 		}
 	}
 	.specialty{
-		margin-top: $margin-ele;
 		padding-bottom: $margin-ele;
 		background-color: $ele-bg;
 		text-align: center;

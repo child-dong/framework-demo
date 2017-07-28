@@ -33,16 +33,7 @@
 				border-radius: 5px;
 				color: $brand-red;
 			}
-			&:before{
-				display: block;
-				content: "";
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				height: 1px;
-				width: 100%;
-				background-color:$border-gray;
-			}
+			@include after1px($border-gray);
 		}
 		.satisfaction{
 			margin-top: 18px;
@@ -87,11 +78,11 @@
 		background-color: $ele-bg;
 		padding: $padding-text 15px 3px;
 		ul{
-			margin-right: -10px;
 			li{
 				float: left;
-				margin: 0 10px 14px 0;
-				width: 30%;
+				margin: 0 4% 14px 0;
+				width: 30.5%;
+				box-sizing: border-box;			
 				a{
 					display: block;
 					line-height: 40px;
@@ -101,6 +92,9 @@
 					border: 1px solid $border-gray;
 					color: $brand-yellow;
 					box-sizing: border-box;		
+				}
+				&:nth-child(3n){
+					margin-right: 0;
 				}
 			}
 		}
@@ -118,6 +112,7 @@
 			border: 1px solid $border-gray;
 			border-radius: $border-radius-base;
 			box-sizing: border-box;
+			resize: none;
 		}
 	}
 	.submit{

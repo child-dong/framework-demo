@@ -4,6 +4,11 @@ var page = {
 			$(document).ready(function(){
 					var mySwiper = new Swiper('.swiper-container',{
 						hashnav:true,
+						pagination : '.swiper-pagination',
+					 	paginationClickable: true,
+					  paginationBulletRender: function (swiper, index, className) {
+			      return '<span class="' + className + '">' + '</span>';
+  }
 				})
 			})
 		})

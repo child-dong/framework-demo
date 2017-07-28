@@ -7,6 +7,7 @@
 		height: 100%;
 	.chat{		
 		margin-top: 50px;
+		margin-bottom: 100px;
 		p{
 			position: relative;
 			margin: 0 auto 19px;
@@ -32,29 +33,30 @@
 		}
 	}
 	.chat-inp{
-		position: absolute;
+		box-sizing: border-box;
+		position: fixed;
 		bottom: 0;
 		left: 0;
 		padding: $margin-ele $padding-aside 8px;
 		width: 100%;
 		line-height: 40px;
 		background-color: $ele-bg;
-		box-sizing: border-box;
 		form{
 			width: 100%;
 			input{			
+				box-sizing: border-box;
 				padding-left: $padding-aside;
 				width: 75%;
 				height: 40px;
 				background-color: #efeef3;
 				border:none;
 				border-radius: 10px;
+				font-size: $font-size-inp;
 				outline: none;
-				box-sizing: border-box;
 			}
 		}
 		button{
-			padding: 0 $padding-aside;
+			// padding: 0 $padding-aside;
 			height: 40px;
 			border: none;
 			border-radius: 5px;

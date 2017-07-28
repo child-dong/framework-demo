@@ -57,6 +57,8 @@
 			color: $brand-yellow;
 			border-bottom: 1px solid $border-gray;
 			a{
+				display: block;
+				line-height: 40px;
 				color: $brand-yellow;
 			}
 		}
@@ -79,6 +81,7 @@
 						b{
 							margin-right: 13px;
 							font-size: 15px;
+							position: relative;
 						}
 					}
 				}
@@ -96,3 +99,13 @@
 		}
 	}
 }
+
+// table{
+// 	margin-left: $padding-text;
+// 	tr{
+// 		td{
+// 			text-align: justify;
+// 			text-align-last: justify;
+// 		}
+// 	}
+// }
