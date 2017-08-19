@@ -1,0 +1,115 @@
+.personalInfo .gap {
+  height: 10px;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+.personalInfo .lawyer-info {
+  padding: 10px 12px 19px;
+  background-color: #fff;
+}
+
+.personalInfo .lawyer-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.personalInfo .lawyer-info p {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 28px;
+  overflow: hidden;
+}
+
+.personalInfo .lawyer-info p b {
+  font-size: 18px;
+  color: #000;
+  line-height: 30px;
+}
+
+.personalInfo .lawyer-info p small {
+  margin-top: 2px;
+  margin-left: 12px;
+  padding: 0 5px;
+  background-color: #ff1b00;
+  color: #ffffff;
+  font-size: 10px;
+  border-radius: 5px;
+  line-height: 16px;
+}
+
+.personalInfo .lawyer-info p a {
+  float: left;
+  margin-left: 10px;
+  line-height: 20px;
+  padding: 0 4px;
+  border: 1px solid #fa7700;
+  color: #fa7700;
+}
+
+.personalInfo .feedback {
+  padding: 5px 0;
+  background-color: #fff;
+  text-align: center;
+  line-height: 22px;
+}
+
+.personalInfo .feedback ul li {
+  float: left;
+  width: 33%;
+  position: relative;
+}
+
+.personalInfo .feedback ul li span {
+  color: #ff1b00;
+}
+
+.personalInfo .feedback ul li:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #ddd;
+}
+
+.personalInfo .feedback ul li:nth-child(3):after {
+  display: none;
+}
+
+.personalInfo .specialty {
+  padding-bottom: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.personalInfo .specialty .title {
+  margin: 0;
+  padding: 15px 0 10px;
+  color: #fa7700;
+  font-size: 16px;
+}
+
+.personalInfo .specialty .title span {
+  margin-right: 5px;
+}
+
+.personalInfo .specialty .content {
+  margin: 0;
+  padding: 0 20px 11px;
+  line-height: 23px;
+  text-align: justify;
+}
+
+.personalInfo .advisory {
+  margin: 42px 12px 19px;
+  text-align: center;
+  line-height: 44px;
+  background-color: #3a5fd2;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 5px;
+}

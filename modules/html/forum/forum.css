@@ -1,0 +1,150 @@
+.forum .realtime-search {
+  padding-bottom: 3px;
+}
+
+.forum .forum-lists {
+  padding: 21px 3px 6px 2px;
+  background-color: #fff;
+}
+
+.forum .forum-lists li {
+  float: left;
+  margin-bottom: 14px;
+  width: 25%;
+  height: 72px;
+  position: relative;
+}
+
+.forum .forum-lists li p {
+  margin: 0;
+  text-align: center;
+}
+
+.forum .forum-lists li p span {
+  margin: 0 auto 8px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 29px;
+  color: #ffffff;
+}
+
+.forum .forum-lists li:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: 0;
+  height: 14px;
+  width: 1px;
+  border-right: 1px dashed #ddd;
+}
+
+.forum .forum-lists li:nth-child(4n):after {
+  display: none;
+}
+
+.forum .icon-xingshianjian {
+  background-color: #ef6189;
+}
+
+.forum .icon-icon {
+  background-color: #3ad4cb;
+}
+
+.forum .icon-zhaiquan1 {
+  background-color: #3ad4cb;
+}
+
+.forum .icon-xingzhengguanli {
+  background-color: #ffa11a;
+}
+
+.forum .icon-iconlaodongjiufen {
+  background-color: #b8ed64;
+}
+
+.forum .icon-chaiqian2 {
+  background-color: #ffa11a;
+}
+
+.forum .icon-xinjingji {
+  background-color: #55e27d;
+}
+
+.forum .hot-question {
+  padding: 17px 20px 11px;
+}
+
+.forum .hot-question span {
+  font-size: 15px;
+}
+
+.forum .question-lists {
+  background-color: #fff;
+}
+
+.forum .question-lists ul {
+  padding-top: 18px;
+}
+
+.forum .question-lists ul li {
+  position: relative;
+  margin: 0 20px 18px;
+  padding: 0 0 14px;
+  font-size: 15px;
+}
+
+.forum .question-lists ul li .sort {
+  margin: 0;
+  line-height: 25px;
+}
+
+.forum .question-lists ul li .sort span {
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+.forum .question-lists ul li .sort .icon-xingshianjian {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.forum .question-lists ul li .sort a {
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #8a8a8a;
+}
+
+.forum .question-lists ul li .content {
+  margin: 5px 0 0 0;
+  line-height: 25px;
+}
+
+.forum .question-lists ul li .scan {
+  margin: 7px 0 0;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.forum .question-lists ul li:after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  border-top: 1px dashed #ddd;
+}
+
+.forum .question-lists ul li:nth-child(3):after {
+  display: none;
+}

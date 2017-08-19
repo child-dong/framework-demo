@@ -1,0 +1,71 @@
+.onlineConsultation .content {
+  border-bottom: 1px solid #ddd;
+}
+
+.onlineConsultation .content .online-center {
+  position: relative;
+  background-color: #fff;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.onlineConsultation .content .online-center:after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.onlineConsultation .content .online-center:nth-child(4):after {
+  display: none;
+}
+
+.onlineConsultation .content .online-center a {
+  display: block;
+}
+
+.onlineConsultation .content .online-center a .online-icon {
+  margin: 0;
+  padding-left: 12px;
+  line-height: 90px;
+  font-size: 35px;
+}
+
+.onlineConsultation .content .online-center a .online-desc {
+  width: 70%;
+  margin-top: 20px;
+  padding-left: 20px;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.onlineConsultation .content .online-center a .online-desc span {
+  width: 75%;
+  font-size: 12px;
+}
+
+.onlineConsultation .content .online-center a .more {
+  margin: 0;
+  line-height: 90px;
+  font-size: 18px;
+}
+
+.onlineConsultation .content .online-center a .icon-rocket {
+  color: #fa7700;
+}
+
+.onlineConsultation .content .online-center a .icon-customerService {
+  color: #9aee46;
+}
+
+.onlineConsultation .content .online-center a .icon-forum {
+  color: #ff1b00;
+}
+
+.onlineConsultation .content .online-center a .icon-robot {
+  color: #49b4f1;
+}

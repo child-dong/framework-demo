@@ -1,0 +1,121 @@
+.penal .penal-info {
+  background-color: #fff;
+}
+
+.penal .penal-info div {
+  overflow: hidden;
+  text-align: center;
+}
+
+.penal .penal-info div .icon-xingshianjian {
+  display: block;
+  margin: 15px auto;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 29px;
+  color: #ffffff;
+  background-color: #ef6189;
+}
+
+.penal .penal-info div p {
+  margin: 10px 0 15px;
+  padding: 0 24px 0;
+  line-height: 22px;
+  text-indent: 25px;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.penal .queue .number, .penal .queue .time {
+  margin: 0;
+  width: 50%;
+  box-sizing: border-box;
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.penal .queue .number {
+  border-left: 0;
+}
+
+.penal .queue .time {
+  border-left: 0;
+  border-right: 0;
+}
+
+.penal .lawyer {
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.penal .lawyer .duty {
+  margin: 0;
+  padding: 0 12px;
+  line-height: 40px;
+  color: #fa7700;
+  border-bottom: 1px solid #ddd;
+}
+
+.penal .lawyer .duty a {
+  display: block;
+  line-height: 40px;
+  color: #fa7700;
+}
+
+.penal .lawyer .lawyer-lists li {
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 16px 12px;
+  position: relative;
+}
+
+.penal .lawyer .lawyer-lists li img {
+  width: 60px;
+  height: 60px;
+}
+
+.penal .lawyer .lawyer-lists li p {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.penal .lawyer .lawyer-lists li p span {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.penal .lawyer .lawyer-lists li p span b {
+  margin-right: 13px;
+  font-size: 15px;
+  position: relative;
+}
+
+.penal .lawyer .lawyer-lists li:after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.penal .lawyer .startQueue {
+  margin: 18px 12px;
+  background-color: #3a5fd2;
+  text-align: center;
+  line-height: 44px;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 10px;
+}

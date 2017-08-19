@@ -1,0 +1,33 @@
+.queue {
+  height: 100%;
+  background-color: #3a5fd2;
+  color: #ffffff;
+}
+
+.queue #ring {
+  margin: 0 auto;
+  height: 370px;
+  width: 80%;
+}
+
+.queue .waitTime {
+  text-align: center;
+  padding: 0 70px;
+  line-height: 35px;
+}
+
+.queue .waitTime span {
+  font-size: 16px;
+}
+
+.queue .exit a {
+  display: block;
+  margin: 71px auto 0;
+  width: 235px;
+  color: #ffffff;
+  line-height: 42px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}

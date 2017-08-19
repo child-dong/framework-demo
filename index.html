@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+
+    <link rel="stylesheet" type="text/css" href="modules/html/guidePage/guide.css" />
+    <link rel="stylesheet" href="modules/css/common.css" />
+    <link rel="stylesheet" href="modules/html/guidePage/swiper-3.4.2.min.css" />
+</head>
+<body>
+
+
+<div class="guide">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" data-hash="slide1">
+				<img src="pkg/images/guide1.png" alt=""></div>
+			<div class="swiper-slide" data-hash="slide2">
+				<img src="pkg/images/guide2.png" alt=""></div>
+			<div class="swiper-slide experience" data-hash="slide3">
+				<p><a href="./onlineConsultation.html">立即体验</a></p>
+				<img src="pkg/images/guide3.png" alt=""></div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</div>
+	<script src="lib/mod.js"></script>
+<script type="text/javascript" src="pkg/index.html_map.js"></script>
+<script type="text/javascript" src="modules/js/main.js"></script>
+<script>
+	var main = require('modules/js/main')
+	main.page.init();
+</script>
+</body>
+</html>

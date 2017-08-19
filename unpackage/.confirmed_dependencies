@@ -1,0 +1,98 @@
+{
+	"index.html": {
+		"resources": [
+			"modules/html/guidePage/swiper-3.4.2.min.css",
+			"pkg/index.html_map.js",
+			"lib/mod.js",
+			"pkg/images/guide1.png",
+			"pkg/images/guide2.png",
+			"modules/js/jquery.js",
+			"modules/css/common.css",
+			"modules/js/swiper.js",
+			"modules/fonts/iconfont.woff",
+			"pkg/images/guide3.png",
+			"modules/js/main.js",
+			"modules/html/guidePage/guide.css"
+		]
+	},
+	"realtimeConsultation.html": {
+		"resources": [
+			"modules/html/realtimeConsultation/realtimeConsultation.css",
+			"onlineConsultation.html",
+			"penal.html"
+		],
+		"refer": [
+			"onlineConsultation.html",
+			"penal.html"
+		]
+	},
+	"onlineConsultation.html": {
+		"resources": [
+			"realtimeConsultation.html",
+			"modules/html/onlineConsultation/onlineConsultation.css",
+			"js/common.js",
+			"js/immersed.js",
+			"lib/mod.js",
+			"modules/css/common.css",
+			"modules/fonts/iconfont.woff",
+			"legal.html",
+			"forum.html",
+			"peerConsultative.html"
+		],
+		"refer": [
+			"realtimeConsultation.html",
+			"barcode_scan.html",
+			"legal.html",
+			"forum.html",
+			"html/barcode_scan.html",
+			"peerConsultative.html"
+		]
+	},
+	"legal.html": {
+		"resources": [
+			"modules/html/legal/legal.css",
+			"onlineConsultation.html"
+		],
+		"refer": [
+			"onlineConsultation.html"
+		]
+	},
+	"forum.html": {
+		"resources": [
+			"modules/html/forum/forum.css",
+			"onlineConsultation.html"
+		],
+		"refer": [
+			"onlineConsultation.html"
+		]
+	},
+	"peerConsultative.html": {
+		"resources": [
+			"modules/html/peerConsultative/peerConsultative.css",
+			"personalInfo.html",
+			"onlineConsultation.html"
+		],
+		"refer": [
+			"personalInfo.html",
+			"onlineConsultation.html"
+		]
+	},
+	"personalInfo.html": {
+		"resources": [
+			"modules/html/personalInfo/personalInfo.css",
+			"peerConsultative.html"
+		],
+		"refer": [
+			"peerConsultative.html"
+		]
+	},
+	"penal.html": {
+		"resources": [
+			"realtimeConsultation.html",
+			"modules/html/penal/penal.css"
+		],
+		"refer": [
+			"realtimeConsultation.html"
+		]
+	}
+}
